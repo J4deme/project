@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Ul from "./ul";
+import Button from "./button";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
             Base Next.js app for Lab1
           </h1>
          </div>
+         <Button />
+
         </main>
         <Ul />
     </div>
