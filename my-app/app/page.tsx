@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Ul from "./ul";
 import Button from "./button";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
          <Button />
 
         </main>
+        <Ul />
     </div>
   );
 }
